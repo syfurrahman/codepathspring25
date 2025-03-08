@@ -1,0 +1,27 @@
+body {
+  background-color: #f0f0f0; /* Change this to your desired background color */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Optional: Set a default font */
+  animation: backgroundAnimation 10s infinite;
+}
+
+@keyframes backgroundAnimation {
+  0% { background-color: #571dd3; }
+  20% { background-color: #ffcccc; }
+  40% { background-color: #ccffcc; }
+  60% { background-color: #ccccff; }
+  80% { background-color: #ffffcc; }
+  100% { background-color: #f0f0f0; }
+}
+
+.App {
+  text-align: center;
+}
+
+div {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
